@@ -2,6 +2,12 @@
   <qresource prefix="run">
     <file>resources/red play button no bg.png</file>
   </qresource>
+  <qresource prefix="export">
+    <file>resources/export.svg</file>
+  </qresource>
+  <qresource prefix="syntaxCheck">
+    <file>resources/syntax_check.svg</file>
+  </qresource>
   <qresource prefix="exit">
     <file>resources/exit.svg</file>
   </qresource>
