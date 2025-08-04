@@ -2,7 +2,16 @@
   <qresource prefix="run">
     <file>resources/red play button no bg.png</file>
   </qresource>
+  <qresource prefix="newFile">
+    <file>resources/newFile.svg</file>
+  </qresource>
+  <qresource prefix="save">
+    <file>resources/save.png</file>
+  </qresource>
   <qresource prefix="bug">
     <file>resources/bug_784558.png</file>
+  </qresource>
+  <qresource prefix="compile">
+    <file>resources/gear compiler icon no bg.png</file>
   </qresource>
 </RCC>
