@@ -2,6 +2,9 @@
   <qresource prefix="run">
     <file>resources/red play button no bg.png</file>
   </qresource>
+  <qresource prefix="exit">
+    <file>resources/exit.svg</file>
+  </qresource>
   <qresource prefix="newFile">
     <file>resources/newFile.svg</file>
   </qresource>
