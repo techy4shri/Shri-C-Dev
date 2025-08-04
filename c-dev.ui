@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1280</width>
+    <height>800</height>
+   </rect>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>1280</width>
+    <height>800</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <property name="minimumSize">
+    <size>
+     <width>1280</width>
+     <height>800</height>
+    </size>
+   </property>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1280</width>
+     <height>18</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuFile">
+    <property name="title">
+     <string>File</string>
+    </property>
+    <addaction name="actionOpen_New_File"/>
+    <addaction name="actionOpen_New_Folder"/>
+    <addaction name="actionCreate_New_File"/>
+    <addaction name="actionSave"/>
+    <addaction name="actionSave_As"/>
+    <addaction name="actionExport"/>
+    <addaction name="actionExit"/>
+   </widget>
+   <widget class="QMenu" name="menuFormat">
+    <property name="title">
+     <string>Format</string>
+    </property>
+    <addaction name="actionFont"/>
+    <addaction name="actionColour_scheme"/>
+    <addaction name="actionTheme"/>
+    <addaction name="actionCursor"/>
+    <addaction name="actionAdd_Style"/>
+    <addaction name="actionAdd_Font"/>
+   </widget>
+   <widget class="QMenu" name="menuOptions">
+    <property name="title">
+     <string>Options</string>
+    </property>
+   </widget>
+   <widget class="QMenu" name="menuSettings">
+    <property name="title">
+     <string>Settings</string>
+    </property>
+    <addaction name="actionStyle"/>
+    <addaction name="actionKey_Binds"/>
+    <addaction name="actionColour_Schene"/>
+    <addaction name="actionComiler"/>
+   </widget>
+   <widget class="QMenu" name="menuExecute">
+    <property name="title">
+     <string>Execute</string>
+    </property>
+    <addaction name="actionRun"/>
+    <addaction name="actionCompile"/>
+    <addaction name="actionCompile_Run"/>
+    <addaction name="actionSyntax_Check"/>
+    <addaction name="actionSet_compiler"/>
+   </widget>
+   <widget class="QMenu" name="menuHelp">
+    <property name="title">
+     <string>Help</string>
+    </property>
+    <addaction name="actionTroubleshoot"/>
+    <addaction name="actionFAQs"/>
+    <addaction name="actionConfig_Help"/>
+    <addaction name="actionCompiler_Help"/>
+    <addaction name="actionDocumentation"/>
+   </widget>
+   <widget class="QMenu" name="menuCommunity">
+    <property name="title">
+     <string>Community</string>
+    </property>
+    <addaction name="actionAbout_Us"/>
+    <addaction name="actionCheck_Source"/>
+    <addaction name="actionReport_a_Bug"/>
+    <addaction name="actionAsk_a_Query"/>
+   </widget>
+   <addaction name="menuFile"/>
+   <addaction name="menuFormat"/>
+   <addaction name="menuOptions"/>
+   <addaction name="menuSettings"/>
+   <addaction name="menuExecute"/>
+   <addaction name="menuHelp"/>
+   <addaction name="menuCommunity"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <widget class="QToolBar" name="toolBar">
+   <property name="minimumSize">
+    <size>
+     <width>800</width>
+     <height>30</height>
+    </size>
+   </property>
+   <property name="windowTitle">
+    <string>toolBar</string>
+   </property>
+   <attribute name="toolBarArea">
+    <enum>TopToolBarArea</enum>
+   </attribute>
+   <attribute name="toolBarBreak">
+    <bool>false</bool>
+   </attribute>
+   <addaction name="actionRun_2"/>
+  </widget>
+  <action name="actionRun">
+   <property name="text">
+    <string>Run</string>
+   </property>
+  </action>
+  <action name="actionCompile">
+   <property name="text">
+    <string>Compile</string>
+   </property>
+  </action>
+  <action name="actionCompile_Run">
+   <property name="text">
+    <string>Compile + Run</string>
+   </property>
+  </action>
+  <action name="actionSyntax_Check">
+   <property name="text">
+    <string>Syntax Check</string>
+   </property>
+  </action>
+  <action name="actionSet_compiler">
+   <property name="text">
+    <string>Set compiler</string>
+   </property>
+  </action>
+  <action name="actionOpen_New_File">
+   <property name="text">
+    <string>Open New File</string>
+   </property>
+  </action>
+  <action name="actionOpen_New_Folder">
+   <property name="text">
+    <string>Open New Folder</string>
+   </property>
+  </action>
+  <action name="actionCreate_New_File">
+   <property name="text">
+    <string>Create New File</string>
+   </property>
+  </action>
+  <action name="actionSave">
+   <property name="text">
+    <string>Save</string>
+   </property>
+  </action>
+  <action name="actionSave_As">
+   <property name="text">
+    <string>Save As</string>
+   </property>
+  </action>
+  <action name="actionExport">
+   <property name="text">
+    <string>Export</string>
+   </property>
+  </action>
+  <action name="actionExit">
+   <property name="text">
+    <string>Exit</string>
+   </property>
+  </action>
+  <action name="actionFont">
+   <property name="text">
+    <string>Font</string>
+   </property>
+  </action>
+  <action name="actionColour_scheme">
+   <property name="text">
+    <string>Colour scheme</string>
+   </property>
+  </action>
+  <action name="actionTheme">
+   <property name="text">
+    <string>Theme</string>
+   </property>
+  </action>
+  <action name="actionCursor">
+   <property name="text">
+    <string>Cursor</string>
+   </property>
+  </action>
+  <action name="actionAdd_Style">
+   <property name="text">
+    <string>Add Style</string>
+   </property>
+  </action>
+  <action name="actionAdd_Font">
+   <property name="text">
+    <string>Add Font</string>
+   </property>
+  </action>
+  <action name="actionTroubleshoot">
+   <property name="text">
+    <string>Troubleshoot</string>
+   </property>
+  </action>
+  <action name="actionFAQs">
+   <property name="text">
+    <string>FAQs</string>
+   </property>
+  </action>
+  <action name="actionConfig_Help">
+   <property name="text">
+    <string>Config Help</string>
+   </property>
+  </action>
+  <action name="actionAbout_Us">
+   <property name="text">
+    <string>About Us</string>
+   </property>
+  </action>
+  <action name="actionCheck_Source">
+   <property name="text">
+    <string>Check Source</string>
+   </property>
+  </action>
+  <action name="actionReport_a_Bug">
+   <property name="text">
+    <string>Report a Bug</string>
+   </property>
+  </action>
+  <action name="actionAsk_a_Query">
+   <property name="text">
+    <string>Ask a Query</string>
+   </property>
+  </action>
+  <action name="actionCompiler_Help">
+   <property name="text">
+    <string>Compiler Help</string>
+   </property>
+  </action>
+  <action name="actionDocumentation">
+   <property name="text">
+    <string>Documentation</string>
+   </property>
+  </action>
+  <action name="actionStyle">
+   <property name="text">
+    <string>Style</string>
+   </property>
+  </action>
+  <action name="actionKey_Binds">
+   <property name="text">
+    <string>Key Binds</string>
+   </property>
+  </action>
+  <action name="actionColour_Schene">
+   <property name="text">
+    <string>Colour Schene</string>
+   </property>
+  </action>
+  <action name="actionComiler">
+   <property name="text">
+    <string>Compiler</string>
+   </property>
+  </action>
+  <action name="actionRun_2">
+   <property name="icon">
+    <iconset resource="resource.qrc">
+     <normaloff>:/run/resources/red play button no bg.png</normaloff>:/run/resources/red play button no bg.png</iconset>
+   </property>
+   <property name="text">
+    <string>Run</string>
+   </property>
+   <property name="toolTip">
+    <string>Run the file</string>
+   </property>
+   <property name="shortcut">
+    <string>F5</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="resource.qrc"/>
+ </resources>
+ <connections/>
+</ui>
